@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: Tippesmippes_bot
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python ai_bot.py"
